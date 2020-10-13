@@ -10,5 +10,6 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
       t.integer :costume_inventory
       t.integer :number_of_employees
       t.boolean :bus_status
+      
   end
 end
